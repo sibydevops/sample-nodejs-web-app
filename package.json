@@ -1,0 +1,26 @@
+{
+  "name": "sample-nodejs-web-app",
+  "version": "1.0.0",
+  "description": "Vulnerable Node.js web application for security testing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "axios": "^1.6.0",
+    "ejs": "^3.1.9",
+    "express-session": "^1.17.3",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["security", "testing", "owasp"],
+  "author": "Security Team",
+  "license": "MIT"
+}
